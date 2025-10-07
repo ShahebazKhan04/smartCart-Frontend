@@ -1,17 +1,25 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./App.tsx";
+import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
-import { store } from "./app/store.tsx";
+import { store } from "./app/Store";
 
-createRoot(document.getElementById("root")).render(
+// Get root element
+const container = document.getElementById("root");
+
+if (!container) throw new Error("Root container missing in index.html");
+
+const root = createRoot(container);
+
+root.render(
   <StrictMode>
     <BrowserRouter>
-      <Provider store={store} >
+      <Provider store={store}>
         <App />
       </Provider>
     </BrowserRouter>
   </StrictMode>
 );
+

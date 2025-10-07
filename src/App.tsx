@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import TDCURD from "./pages/TDCURD.js";
+import TDCURD from "./pages/TDCURD";
 
 function App() {
   return (

@@ -1,0 +1,84 @@
+.mainDiv {
+  background-color: #222020;
+  height: 51.6rem;
+}
+
+.mainContainer {
+  background-color: #ecf0f1;
+  /* height: 20rem; */
+  width: 30%;
+  position: relative;
+  left: 30rem;
+  top: 5rem;
+  border-radius: 5px;
+}
+
+.inputDiv {
+  position: relative;
+  left: 40px;
+  bottom: 55px;
+}
+
+.addInput {
+  height: 2.5rem;
+  width: 18rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.addBtn {
+  /* background-color: aqua; */
+  /* height: 2rem;
+    width: 4rem; */
+    color: #00b894;
+  font-size: 35px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 1rem;
+  position: relative;
+  top: 10px;
+}
+
+.openBtn {
+  color: #00b894;
+  font-size: 1.8rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-left: 15px;
+}
+.closeBtn {
+  color: #d63031;
+  font-size: 1.8rem;
+  cursor: pointer;
+  margin-top: 2.1rem;
+  margin-left: 17px;
+  /* position: relative; */
+}
+
+.dataDiv {
+  margin-top: -3rem;
+}
+
+.deleteBtnDiv {
+  display: flex;
+  position: relative;
+  left: 20.5rem;
+  bottom: 18px;
+}
+
+.deleteBtn {
+  color: #ff7675;
+  font-size: 24px;
+  cursor: pointer;
+}
+.updateBtn {
+  color: #74b9ff;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 3px;
+  margin-right: 15px;
+}
